@@ -11,7 +11,7 @@ function get($key){
         $message = $_SESSION['flash'][$key];
         unset($_SESSION['flash'][$key]);
 
-        return $message ?? '';
+        return $message ?? "";
     }
 
 }
